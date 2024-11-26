@@ -22,7 +22,7 @@ Welcome to my personal portfolio website! This project showcases my skills, proj
 
 ## 🌐 Live Demo
 
-[Visit my portfolio](https://<your-username>.github.io/portfolio-website/)
+[Visit my portfolio](https://github.com/06-abhishek/Personal-Portfolio-Website.git)
 
 ## 📂 Project Structure
 
