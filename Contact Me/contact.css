@@ -1,0 +1,155 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "poppins", sans-serif;
+}
+
+/* Navbr : */
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 52px;
+  width: 100%;
+  background-color: rgba(118, 79, 248, 0.7);
+  box-shadow: 10px 10px 15px 5px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: rgb(250, 250, 250);
+}
+
+.lets-talk-btn {
+  position: absolute;
+  right: 50px;
+  font-size: 15px;
+  padding-top: 8px;
+  padding-bottom: 7px;
+  padding-right: 17px;
+  padding-left: 17px;
+  border: 1px solid rgb(250, 250, 250);
+  border-radius: 7px;
+  letter-spacing: 1px;
+  transition: 0.3s ease;
+}
+
+.lets-talk-btn:hover {
+  background-color: rgb(250, 250, 250);
+  color: #764ff8;
+  border: 1px solid transparent;
+  border-radius: 7px;
+}
+
+.ABHI-logo {
+  position: absolute;
+  left: 50px;
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.nav a {
+  font-size: 15px;
+  margin: 20px;
+  transition: 0.3s ease;
+}
+
+.nav a:hover {
+  color: rgb(240, 240, 240);
+  text-shadow: 0 0 25px white, 0 0 50px white;
+}
+
+/* Contact Form : */
+.contact-form h2 {
+  text-align: center;
+  margin-top: 35px;
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+.contact-form form {
+  max-width: 400px;
+  margin: 20px auto;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.contact-form form .input-box {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.contact-form form .input-box input,
+.contact-form form textarea {
+  width: 100%;
+  padding: 15px;
+  font-size: 10px;
+  color: black;
+  background: rgb(241, 241, 241);
+  border-radius: 10px;
+  margin: 5px 0;
+  resize: none;
+}
+.contact-form form textarea {
+  width: 370px;
+}
+.btn1 {
+  height: 35px;
+  width: 100px;
+  background-color: #764ff8;
+  color: white;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  font-size: 12px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+.btn1:hover {
+  background-color: white;
+  color: #764ff8;
+  border: 2px solid #764ff8;
+}
+#quoute {
+  font-family: Georgia, serif;
+  font-style: italic;
+  font-size: 15px;
+  color: orangered;
+  letter-spacing: 0.5px;
+  padding: 15px 0 15px 0;
+  text-shadow: 0px 1px 30px rgba(0, 0, 0, 1);
+}
+
+/* Footer Bar : */
+.footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  padding: 5px 0;
+  background-color: black;
+}
+.footer .social {
+  margin-top: 5px;
+  text-align: center;
+  color: white;
+}
+.footer .social a {
+  font-size: 24px;
+  color: white;
+  width: 35px;
+  height: 35px;
+  line-height: 38px;
+  display: inline-block;
+  text-align: center;
+  margin: 0 8px;
+  transition: 0.2s ease;
+}
+.footer .social a:hover {
+  transform: scale(1.1);
+  color: #764ff8;
+}
+.footer .copyright {
+  text-align: center;
+  font-size: 10px;
+  color: white;
+}

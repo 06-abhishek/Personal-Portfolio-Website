@@ -1,0 +1,150 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "poppins", sans-serif;
+}
+
+/* Navbr : */
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 52px;
+  width: 100%;
+  background-color: rgba(118, 79, 248, 0.7);
+  box-shadow: 10px 10px 15px 5px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: rgb(250, 250, 250);
+}
+
+.lets-talk-btn {
+  position: absolute;
+  right: 50px;
+  font-size: 15px;
+  padding-top: 8px;
+  padding-bottom: 7px;
+  padding-right: 17px;
+  padding-left: 17px;
+  border: 1px solid rgb(250, 250, 250);
+  border-radius: 7px;
+  letter-spacing: 1px;
+  transition: 0.3s ease;
+}
+
+.lets-talk-btn:hover {
+  background-color: rgb(250, 250, 250);
+  color: #764ff8;
+  border: 1px solid transparent;
+  border-radius: 7px;
+}
+
+.ABHI-logo {
+  position: absolute;
+  left: 50px;
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.nav a {
+  font-size: 15px;
+  margin: 20px;
+  transition: 0.3s ease;
+}
+
+.nav a:hover {
+  color: rgb(240, 240, 240);
+  text-shadow: 0 0 25px white, 0 0 50px white;
+}
+
+/* About Code : */
+section {
+  width: 800px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 15px auto 40px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  padding: 10px 0;
+}
+
+.img-Name img {
+  height: 340px;
+  padding: 12px 12px 30px 12px;
+  background-color: black;
+}
+.img-Name h4 {
+  color: white;
+  width: 100%;
+  text-align: center;
+  position: relative;
+  bottom: 48px;
+  font-size: 15px;
+}
+
+.info-Container h4 {
+  margin: 0;
+  font-size: 18px;
+  color: #764ff8;
+}
+
+.info-Container p {
+  padding: 0 0 5px 15px;
+  font-size: 15px;
+  color: #606060;
+  position: relative;
+  bottom: 10px;
+}
+
+/* .title {
+  width: 100%;
+  padding: 8px 0 10px 0;
+  font-family: Georgia, serif;
+  font-style: italic;
+  text-align: center;
+  font-size: 25px;
+  color: #555555;
+  color: black;
+  letter-spacing: 9px;
+  text-shadow: 0px 1px 30px rgba(0, 0, 0, 9);
+} */
+
+/* Footer Bar : */
+.footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  padding: 5px 0;
+  background-color: black;
+}
+.footer .social {
+  margin-top: 5px;
+  text-align: center;
+  color: white;
+}
+.footer .social a {
+  font-size: 24px;
+  color: white;
+  width: 35px;
+  height: 35px;
+  line-height: 38px;
+  display: inline-block;
+  text-align: center;
+  margin: 0 8px;
+  transition: 0.2s ease;
+}
+.footer .social a:hover {
+  transform: scale(1.1);
+  color: #764ff8;
+}
+.footer .copyright {
+  text-align: center;
+  font-size: 10px;
+  color: white;
+}

@@ -1,0 +1,220 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: rgb(250, 250, 250);
+  font-family: 'poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.backBOX {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 110vw;
+  height: 100vh;
+  clip-path: polygon(0 100%, 100% 100%, 100% 0);
+  background-color: #764ff8;
+  z-index: -100;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;  
+  align-items: center;
+  height: 52px;
+  width: 100%;
+  background-color: rgba(118, 79, 248, 0.7);
+  box-shadow: 10px 10px 15px 5px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: rgb(250, 250, 250);
+}
+
+.lets-talk-btn {
+  position: absolute;
+  right: 50px;
+  font-size: 15px;
+  padding-top : 8px;
+  padding-bottom : 7px;
+  padding-right: 17px;
+  padding-left: 17px;
+  border: 1px solid rgb(250, 250, 250);
+  border-radius: 7px;
+  letter-spacing: 1px;
+  transition: 0.3s ease;
+}
+
+.lets-talk-btn:hover {
+  background-color: rgb(250, 250, 250);
+  color: #764ff8;
+  border: 1px solid transparent;
+  border-radius: 7px;
+}
+
+.ABHI-logo {
+  position: absolute;
+  left: 50px;
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.nav a {
+  font-size: 15px;
+  margin: 20px;
+  transition: 0.3s ease;
+}
+
+.nav a:hover {
+  color: rgb(240, 240, 240);
+  text-shadow: 0 0 25px white,
+               0 0 50px white;
+}
+
+
+
+.homepage {
+  height: 89vh;
+}
+
+.hello-heading {
+  font-size: 35px;
+  position: absolute;
+  left: 30px;
+  top: 90px;
+  width: 650px;
+}
+
+.proffesion {
+  font-size: 30px;
+  position: absolute;
+  left: 30px;
+  top: 140px;
+  letter-spacing: 2px;
+  width: 530px;
+}
+
+.thought {
+  position: absolute;
+  left: 30px;
+  top: 200px;
+  width: 400px;
+}
+
+.works {
+  text-decoration: none;
+  color: #764ff8;
+  position: absolute;
+  top: 280px;
+  left: 30px;
+  font-size: 15px;
+  padding-top : 9px;
+  padding-bottom : 9px;
+  padding-right: 18px;
+  padding-left: 18px;
+  border: 1px solid #764ff8;
+  border-radius: 7px;
+  transition: 0.3s ease;
+}
+
+.works:hover {
+  background-color: #764ff8;
+  color: rgb(250, 250, 250);
+  border: 1px solid transparent;
+  border-radius: 7px;
+}
+
+.myImg {
+  height: 390px;
+  position: absolute;
+  right: 200px;
+  bottom: 0;
+  z-index: 2;
+}
+
+.intro {
+  /* width: 570px; */
+  width: 840px;
+  margin-top: 60px;
+  margin-left: 100px;
+  font-weight: 700;
+
+  margin-bottom: 20px;  /*CHANGED*/
+}
+
+.aboutMe {
+  margin-bottom: 60px;
+}
+
+.techSkills {
+  margin-top: 30px;
+  margin-left: 100px;
+  width: 382px;
+}
+
+.progressBar {
+  display: inline-block;
+  margin-top: 46px;
+
+  /* Changed : */
+  margin-right: 100px;
+  width: 382px;
+}
+
+.containerBar {
+  width: 382px;
+  background-color: #dcdcdc;
+  overflow: hidden;
+}
+
+.bar {
+  height: 7px;
+  background-color: #764ff8;
+}
+
+/* CHANGED : */
+.aboutMe {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+
+/* Added new : */
+.footer{
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  padding: 5px 0;
+  background-color: black;
+}
+.footer .social{
+  margin-top: 5px;
+  text-align: center;
+  color: white;
+}
+.footer .social a{
+  font-size: 24px;
+  color: white;
+  width: 35px;
+  height: 35px;
+  line-height: 38px;
+  display: inline-block;
+  text-align: center;
+  margin: 0 8px;
+  transition: 0.2s ease;
+}
+.footer .social a:hover{
+  transform: scale(1.1);
+  color: #764ff8;
+}
+.footer .copyright{
+  text-align: center;
+  font-size: 10px;
+  color: white;
+}

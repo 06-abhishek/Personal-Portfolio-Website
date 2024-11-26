@@ -1,0 +1,337 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+}
+
+/* navbar : */
+.navbar {
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+    height: 52px;
+    width: 100%;
+    background-color: rgba(118, 79, 248, 0.7);
+    box-shadow: 10px 10px 15px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: rgb(250, 250, 250);
+  }
+  
+  .lets-talk-btn {
+    position: absolute;
+    right: 50px;
+    font-size: 15px;
+    padding-top : 8px;
+    padding-bottom : 7px;
+    padding-right: 17px;
+    padding-left: 17px;
+    border: 1px solid rgb(250, 250, 250);
+    border-radius: 7px;
+    letter-spacing: 1px;
+    transition: 0.3s ease;
+  }
+  
+  .lets-talk-btn:hover {
+    background-color: rgb(250, 250, 250);
+    color: #764ff8;
+    border: 1px solid transparent;
+    border-radius: 7px;
+  }
+  
+  .ABHI-logo {
+    position: absolute;
+    left: 50px;
+    font-weight: 600;
+    font-size: 25px;
+  }
+  
+  .nav a {
+    font-size: 15px;
+    margin: 20px;
+    transition: 0.3s ease;
+  }
+  
+  .nav a:hover {
+    color: rgb(240, 240, 240);
+    text-shadow: 0 0 25px white,
+                 0 0 50px white;
+  }
+
+
+/* Work starts here : */
+.jumpToTop{
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 22px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background: none;
+  color: #4f4f4f;
+  font-size: 25px;
+  opacity: 0.8;
+  text-shadow: 0 0 25px white,
+                 0 0 50px white;
+  transition: 0.3s ease;
+}
+.jumpToTop:hover{
+  color: #764ff8;
+}
+
+
+.breadcrumb {
+  margin: 0;
+  display: flex;
+  font-size: 14px;
+  font-weight: 600;
+  list-style: none;
+  gap: 4px;
+  background-color: #f8f9fa;
+  color: #495057;
+  padding: 8px 0 8px 8px;
+}
+.breadcrumb a,
+.breadcrumb span {
+  text-decoration: none;
+  /* color: #4f4f4f; */
+  /* color: #007bff; */
+  color: #764ff8;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.breadcrumb a:hover{
+/* color: #764ff8; */
+color: #212529;
+opacity: 0.7;
+}
+  
+
+.title {
+  font-size: 36px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  padding: 20px 0;
+  position: relative;
+}
+.title::after{
+  content: '';
+  display: block;
+  width: 80px;
+  height: 3px;
+  background: #f39c12;
+  /* background: #764ff8; */
+  margin: 10px auto 0;
+}
+
+
+/* projects : */
+.projects {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 50px;
+}
+.project-Container {
+  margin-left: 20px;
+}
+.project-Card {
+  width: 270px;
+  background-color: #ffffff;
+  border: 2px solid #333333;
+  border-radius: 5px;
+  padding: 5px 8px 5px 5px;
+}
+.projectIMG {
+  width: 100%;
+  height: auto;
+  background: #333333;
+  border: 2px solid #333333;
+  border-radius: 5px;
+}
+.projectName  {
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 600;
+  color: black;
+  transition: 0.3s ease;
+}
+.projectName:hover{
+  text-shadow: 0 0 50px #764ff8,
+               0 0 20px #764ff8;
+  z-index: -1000;
+}
+.projectDescription, .project-languages {
+  margin: 0;
+  font-size: 13px;
+  color: #606060;
+  margin-top: 7px;
+}
+
+.viewMore {
+  font-size: 10px;
+  text-decoration: none;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #764ff8;
+  border: 1px solid #764ff8;
+  border-radius: 50px;
+  padding: 7px 10px 7px 10px;
+  margin-left: 10px;
+  transition: 0.3s ease;
+}
+.viewMore:hover{
+  color: white;
+  background-color: rgba(118, 79, 248, 0.8);
+  border: 1px solid rgba(118, 79, 248, 0.8);
+}
+
+/* Case Studies : */
+.caseStudiesContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin-bottom: 50px;
+}
+.problemContainer {
+  width: 450px;
+  background-color: #ffffff;
+  border: 2px solid #333333;
+  border-radius: 5px;
+  padding: 15px 15px 15px 15px;
+  margin-bottom: 30px;
+}
+.problemContainer p {
+  margin: 0;
+  font-size: 13px;
+  color: #4f4f4f;
+  margin-top: 7px;
+}
+.problemContainer h4 {
+  font-size: 14px;
+}
+.problemContainer h4::after{
+  content: '';
+  display: block;
+  width: 200px;
+  height: 1.5px;
+  background: #764ff8;
+  margin: 7px auto 0;
+}
+.question {
+  margin: 0;
+  margin: 5px 0 15px 0;
+}
+.sourceCode {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  text-decoration: none;
+  font-style: italic;
+  font-weight: 600;
+  color: rgba(98, 99, 255, 0.8);
+  font-size: 13px;
+  transition: 0.3s ease;
+}
+.sourceCode:hover{
+  color: rgb(118, 79, 248);
+}
+
+.imgContainer {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  max-width: 100%;
+}
+.imgContainer p {
+  margin-bottom: 10px;
+  align-self: flex-start;
+}
+.solution {
+  width: 400px;
+  height: auto;
+  align-self: center;
+  margin-bottom: 7px;
+}
+
+
+/* Portfolio Showcase : */
+.PortfolioShowcaseContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: auto 20px auto 20px;
+}
+.showcase {
+  width: 285px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: #ffffff;
+  border: 2px solid #333333;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  padding: 15px;
+}
+.showcase img {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.showcase p {
+  font-size: 13px;
+  color: #4f4f4f;
+  margin-top: 5px;
+}
+.showcase h4 {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 5px;
+  align-self: flex-start;
+}
+
+
+
+/* Footer Bar : */
+.footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 5px 0;
+    background-color: black;
+  }
+  .footer .social{
+    margin-top: 5px;
+    text-align: center;
+    color: white;
+  }
+  .footer .social a{
+    font-size: 24px;
+    color: white;
+    width: 35px;
+    height: 35px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    margin: 0 8px;
+    transition: 0.2s ease;
+  }
+  .footer .social a:hover{
+    transform: scale(1.1);
+    color: #764ff8;
+  }
+  .footer .copyright{
+    text-align: center;
+    font-size: 10px;
+    color: white;
+  }

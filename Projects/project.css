@@ -1,0 +1,163 @@
+body {
+    font-family: 'poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar : */
+.navbar {
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+    height: 52px;
+    width: 100%;
+    background-color: rgba(118, 79, 248, 0.7);
+    box-shadow: 10px 10px 15px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: rgb(250, 250, 250);
+  }
+  
+  .lets-talk-btn {
+    position: absolute;
+    right: 50px;
+    font-size: 15px;
+    padding-top : 8px;
+    padding-bottom : 7px;
+    padding-right: 17px;
+    padding-left: 17px;
+    border: 1px solid rgb(250, 250, 250);
+    border-radius: 7px;
+    letter-spacing: 1px;
+    transition: 0.3s ease;
+  }
+  
+  .lets-talk-btn:hover {
+    background-color: rgb(250, 250, 250);
+    color: #764ff8;
+    border: 1px solid transparent;
+    border-radius: 7px;
+  }
+  
+  .ABHI-logo {
+    position: absolute;
+    left: 50px;
+    font-weight: 600;
+    font-size: 25px;
+  }
+  
+  .nav a {
+    font-size: 15px;
+    margin: 20px;
+    transition: 0.3s ease;
+  }
+  
+  .nav a:hover {
+    color: rgb(240, 240, 240);
+    text-shadow: 0 0 25px white,
+                 0 0 50px white;
+  }
+
+
+/* Project Content : */
+.title {
+  font-size: 36px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  margin: 20px 0;
+  position: relative;
+}
+.title::after{
+  content: '';
+  display: block;
+  width: 80px;
+  height: 3px;
+  /* background: #f39c12; */
+  background: #764ff8;
+  margin: 10px auto 0;
+}
+
+.projectContainer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+.project-Card {
+    width: 735px;
+    background-color: #ffffff;
+    border: 3px solid #333333;
+    border-radius: 5px;
+    padding: 20px;
+    padding-left: 34px;
+    padding-right: 34px;
+    position: relative;
+}
+.projectIMG {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    padding-bottom: 30px;
+    background: #333333;
+    border: 3px solid #333333;
+    border-radius: 5px;
+    position: relative;
+    right: 12px;
+}
+.projectName  {
+    position: absolute;
+    top: 367px;
+    left: 40px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    color: #ffffff;
+}
+.projectDescription, .problems-Project-Solve,
+.project-languages, .project-challenges,
+.project-approach {
+    font-size: 13px;
+    color: #606060;
+    margin-bottom: 10px;
+}
+
+
+/* Footer BAr : */
+.footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 5px 0;
+    background-color: black;
+  }
+  .footer .social{
+    margin-top: 5px;
+    text-align: center;
+    color: white;
+  }
+  .footer .social a{
+    font-size: 24px;
+    color: white;
+    width: 35px;
+    height: 35px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    margin: 0 8px;
+    transition: 0.2s ease;
+  }
+  .footer .social a:hover{
+    transform: scale(1.1);
+    color: #764ff8;
+  }
+  .footer .copyright{
+    text-align: center;
+    font-size: 10px;
+    color: white;
+  }
